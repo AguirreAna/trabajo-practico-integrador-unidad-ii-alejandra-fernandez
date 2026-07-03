@@ -43,3 +43,55 @@
 
 .ipf-footer a { color: rgba(255, 255, 255, .75); }
 .ipf-footer a:hover { color: var(--ipf-green-light); }
+body {
+  font-family: var(--ipf-font-body);
+  color: var(--ipf-black);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--ipf-font-heading);
+  font-weight: 600;
+  color: var(--ipf-black);
+}
+
+.btn-ipf {
+  background-color: var(--ipf-green);
+  border-color: var(--ipf-green);
+  color: var(--ipf-white);
+  font-weight: 600;
+  transition: background-color .2s ease, transform .15s ease;
+}
+
+.btn-ipf:hover {
+  background-color: var(--ipf-green-dark);
+  border-color: var(--ipf-green-dark);
+  color: var(--ipf-white);
+  transform: translateY(-2px);
+}
+
+a { color: var(--ipf-green-dark); }
+a:hover { color: var(--ipf-green); }
+
+.ipf-carousel .carousel-item img {
+  height: 60vh;
+  min-height: 380px;
+  object-fit: cover;
+}
+
+.ipf-carousel .carousel-caption {
+  background-color: rgba(20, 22, 26, 0.6);
+  border-radius: .5rem;
+  padding: 1.25rem 1.5rem;
+  bottom: 12%;
+}
+
+.ipf-card {
+  border-top: 4px solid var(--ipf-green);
+  transition: transform .2s ease, box-shadow .2s ease;
+  height: 100%;
+}
+
+.ipf-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 .75rem 1.5rem rgba(20, 22, 26, .15);
+}
