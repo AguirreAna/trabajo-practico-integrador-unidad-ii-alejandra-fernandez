@@ -47,3 +47,32 @@ body {
 
 .ipf-footer a { color: rgba(255, 255, 255, .75); }
 .ipf-footer a:hover { color: var(--ipf-green-light); }
+
+.ipf-hito {
+  border-left: 3px solid var(--ipf-green);
+  padding-left: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.ipf-hito .ipf-anio {
+  color: var(--ipf-green-dark);
+  font-weight: 700;
+  font-family: var(--ipf-font-heading);
+}
+
+.ipf-mv .card-header {
+  background-color: var(--ipf-black);
+  color: var(--ipf-white);
+  font-weight: 600;
+}
+
+.ipf-autoridades .list-group-item { transition: background-color .2s ease; }
+.ipf-autoridades .list-group-item:hover { background-color: var(--ipf-gray-100); }
+
+.ipf-autoridades .ipf-cargo {
+  color: var(--ipf-green-dark);
+  font-weight: 600;
+  font-size: .8rem;
+  text-transform: uppercase;
+  letter-spacing: .4px;
+}
