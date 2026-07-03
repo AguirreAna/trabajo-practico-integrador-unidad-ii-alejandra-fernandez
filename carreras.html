@@ -7,37 +7,36 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="assets/css/carreras.css">
 </head>
 
 <body>
-    <header class="bg-primary text-white text-center p-4">
-    <h1>Instituto Politécnico Formosa</h1>
-    <p>Formando profesionales para el futuro</p>
-</header>
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-        <a class="navbar-brand" href="#">IPF</a>
-        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
-            <span class="navbar-toggler-icon"></span>
+      <header class="ipf-header sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ipf-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/img/logo.png" alt="Logo Instituto Politécnico Formosa">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Abrir menú de navegación">
+          <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div id="menu" class="collapse navbar-collapse">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-                <li class="nav-item"><a class="nav-link" href="institucional.html">Institucional</a></li>
-                <li class="nav-item"><a class="nav-link" href="carreras.html">Carreras</a></li>
-                <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
-            </ul>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="institucional.html">Institucional</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="carreras.html">Carreras</a></li>
+            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+          </ul>
         </div>
-    </div>
-</nav>
+      </div>
+    </nav>
+  </header>
     <main>
 
     </main>
     <footer>
-
+        <p class="small text-center mb-0">&copy; 2026 Instituto Politécnico Formosa. Trabajo Práctico Integrador — Unidad II.</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
