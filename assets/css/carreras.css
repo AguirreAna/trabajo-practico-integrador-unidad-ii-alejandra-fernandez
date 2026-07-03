@@ -52,3 +52,34 @@ h1, h2, h3, h4, h5, h6 {
 
 .ipf-footer a { color: rgba(255, 255, 255, .75); }
 .ipf-footer a:hover { color: var(--ipf-green-light); }
+
+.ipf-carreras .accordion-button {
+  font-weight: 600;
+  color: var(--ipf-black);
+}
+
+.ipf-carreras .accordion-button:not(.collapsed) {
+  background-color: var(--ipf-green);
+  color: var(--ipf-white);
+}
+
+.ipf-carreras .accordion-button:focus {
+  box-shadow: 0 0 0 .2rem rgba(31, 122, 61, .3);
+}
+
+.ipf-badge-duracion {
+  background-color: var(--ipf-gray-100);
+  color: var(--ipf-black);
+  font-weight: 600;
+  transition: background-color .2s ease, color .2s ease;
+}
+
+.accordion-item:hover .ipf-badge-duracion {
+  background-color: var(--ipf-green);
+  color: var(--ipf-white);
+}
+
+.ipf-requisitos .list-group-item i {
+  color: var(--ipf-green);
+  margin-right: .5rem;
+}
